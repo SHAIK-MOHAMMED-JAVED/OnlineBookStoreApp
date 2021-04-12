@@ -1,0 +1,66 @@
+/* .corousel-div-image{
+
+ min-height:1000px;
+
+    background-image: url(../../assets/image-1-corousel.jpg);
+      height:50%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size:cover;
+} 
+
+.corousel-h1-text{
+
+    font-size: 52pt;
+    width:50%;
+    margin-left:100px;
+    background-repeat: no-repeat;
+    font-family:fantasy;
+     padding-top:150px;
+ 
+}
+
+.blink{
+  
+
+ justify-content: center;
+ 
+  font-size: 7em;
+    display:flex;
+    bottom:10px;
+  
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink{
+
+
+    0%{
+        opacity: 1;
+        transform: translateY(50%);
+        color: cyan;
+
+    }
+
+
+    100%{
+        color: rgb(17, 0, 255);
+        transform: translateY(50%);
+        opacity:0;
+    }
+} */
+
+
+
+
+
+
+img {
+    height: 400px; 
+    object-fit: cover;
+
+
+  }

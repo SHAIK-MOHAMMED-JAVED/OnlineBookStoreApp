@@ -1,0 +1,23 @@
+<div class="main">
+   
+    <ul class="cards">
+      <li class="cards_item" *ngFor="let wish of wishlist">
+        <div class="card">
+          <div class="card_image"><img src="{{wish.photo}}"></div>
+          <div class="card_content">
+            <h2 class="card_title">{{wish.prod_name}}</h2>
+            <p class="card_text fa fa-rupee-sign">{{wish.prod_price}}</p>
+            <div class="card-footer">
+              <i
+                class="h3 text-success fa fa-shopping-cart me-3"
+                (click)="moveToCartFromWishlist(wish)" style="cursor: pointer;"
+              ></i
+              ><i class="ms-3 text-danger h3 fa fa-trash float-end" (click)="deleteFromWishlist(wish)" style="cursor: pointer;"> </i>
+            </div>
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+  

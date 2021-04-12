@@ -1,0 +1,15 @@
+POST http://localhost:2000/product/getproducts
+Content-Type: application/json
+
+{
+  "username":"harsha2851"  
+}
+
+
+###
+POST http://localhost:3000/user/getorders
+Content-Type: application/json
+
+{
+  "username":"komal"  
+}
